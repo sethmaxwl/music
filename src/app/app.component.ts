@@ -1,8 +1,15 @@
 import { Component } from '@angular/core';
 import { Howl, Howler } from 'howler';
-const { Howl, Howler } = require('howler');
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import * from 'jquery';
+import * from 'tone';
+// var sound = new Howl({
+//   src: ['assets/bass.mp3'],
+//   autoplay: false,
+//   loop: false,
+//   html5: true,
+//   preload: true
+// });
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,13 +18,41 @@ import * from 'jquery';
 })
 export class AppComponent {
   title = 'music';
-  playMusic() {
-    sound.play();
-  }
+  let octave = 5;
+  const keys = [];
+  let prevKey = 0;
+  const instruments = {
+    keyboard: {
+      a: 'Cl',
+      w: 'C#l',
+      s: 'Dl',
+      e: 'D#l',
+      d: 'El',
+      f: 'Fl',
+      t: 'F#l',
+      g: 'Gl',
+      y: 'G#l',
+      h: 'Al',
+      u: 'A#l',
+      j: 'Bl',
+      // Upper octave.
+      k: 'Cu',
+      o: 'C#u',
+      l: 'Du',
+      p: 'D#u',
+      ';': 'Eu',
+      "'": 'Fu',
+      ']': 'F#u',
+      '\\': 'Gu',
+    },
+  };
+  let instrument = Instruments.keyboard;
+  const keyToNote = function(key){
+    const note = instrument[key];
+    if (!note) {
+      return;
+    }
+    return Tone.Frequency(note.replace('l', octave).replace('u', octave + 1)).toNote();
+  };
+
 }
-var sound = new Howl({
-  src: ['assets/bass.mp3'],
-  autoplay: false,
-  loop: false,
-  volume: 0.5
-});
