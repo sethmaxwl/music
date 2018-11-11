@@ -1,8 +1,19 @@
 <div class="view">
   <mat-sidenav-container class="nav-view" [hasBackdrop]="false">
-    <mat-sidenav class="side-open" #sidenav [mode]="'push'">Start</mat-sidenav>
+
+    <mat-sidenav class="side-open" #sidenav [mode]="'push'">
+      <ul class="list-group sidebar-list">
+        <li class="list-group-item">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+        <li class="list-group-item">Item 5</li>
+      </ul>
+    </mat-sidenav>
+
     <mat-sidenav-content class="nav-content">
       <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
     </mat-sidenav-content>
+
   </mat-sidenav-container>
 </div>
