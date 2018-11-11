@@ -1,3 +1,11 @@
+/*
+#00FDFF rgb(0, 253, 255)
+#009696 rgb(0, 150, 150)
+#00FF70 rgb(0, 255, 112)
+#FF416B rgb(255, 65, 107)
+#DB38AE rgb(219, 56, 174)
+*/
+
 .nav-view {
   width: 100vw;
   height: 100vh;
@@ -5,4 +13,14 @@
 
 .side-open {
   box-shadow: none;
+  width: 250px;
+}
+
+#menu-toggle {
+  padding-left: 3%;
+  padding-top: 2%;
+}
+
+.nav-content {
+  background-color: rgb(0, 150, 150);
 }

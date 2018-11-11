@@ -1,12 +1,8 @@
 <div class="view">
   <mat-sidenav-container class="nav-view" [hasBackdrop]="false">
-<<<<<<< HEAD
-    <mat-sidenav #sidenav [mode]="'push'">Start</mat-sidenav>
-=======
     <mat-sidenav class="side-open" #sidenav [mode]="'push'">Start</mat-sidenav>
->>>>>>> 2ab7e282e51c5a17616f3e3b5d30353758fd1b11
-    <mat-sidenav-content>
-      <i class="fas fa-bars fa-3x" (click)="sidenav.toggle()"></i>
+    <mat-sidenav-content class="nav-content">
+      <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
