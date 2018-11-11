@@ -1,6 +1,8 @@
 <div class="view">
-  <mat-sidenav-container>
-    <mat-sidenav>Start</mat-sidenav>
-    <mat-sidenav-content>Main</mat-sidenav-content>
+  <mat-sidenav-container class="nav-view">
+    <mat-sidenav #sidenav [mode]="'push'">Start</mat-sidenav>
+    <mat-sidenav-content>
+      <i class="fas fa-bars" (click)="sidenav.toggle()"></i>
+    </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
