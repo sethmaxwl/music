@@ -2,13 +2,13 @@
   <mat-sidenav-container class="nav-view" [hasBackdrop]="false">
 
     <mat-sidenav class="side-open" #sidenav [mode]="'push'">
-      <ul class="list-group sidebar-list">
-        <li class="list-group-item"><b>Item 1</b></li>
-        <li class="list-group-item"><b>Item 2</b></li>
-        <li class="list-group-item"><b>Item 3</b></li>
-        <li class="list-group-item"><b>Item 4</b></li>
-        <li class="list-group-item"><b>Item 5</b></li>
-      </ul>
+      <mat-nav-list>
+        <mat-list-item class="sidebar-item">Item 1</mat-list-item>
+        <mat-list-item class="sidebar-item">Item 2</mat-list-item>
+        <mat-list-item class="sidebar-item">Item 3</mat-list-item>
+        <mat-list-item class="sidebar-item">Item 4</mat-list-item>
+        <mat-list-item class="sidebar-item">Item 5</mat-list-item>
+      </mat-nav-list>
     </mat-sidenav>
 
     <mat-sidenav-content class="nav-content">
