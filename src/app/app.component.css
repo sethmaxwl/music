@@ -19,14 +19,15 @@
 }
 
 #menu-toggle {
-  padding-left: 3%;
-  padding-top: 2%;
+  margin-left: 3%;
+  margin-top: 2%;
   color: black;
   transition: color 0.25s ease;
 }
 
 #menu-toggle:hover {
   color: white;
+  cursor: pointer;
 }
 
 .nav-content {
