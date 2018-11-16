@@ -10,3 +10,14 @@
   color: black;
   background-color: rgb(0, 150, 150);
 }
+
+.logo-sidebar {
+  align-content: center;
+  width: inherit;
+}
+
+.logo {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
