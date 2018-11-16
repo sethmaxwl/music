@@ -1,8 +1,10 @@
 .logo-sidebar {
+  padding-top: 5%;
 }
 
 .logo {
-  width: 50%;
+  margin: 0 auto;
+  width: 25%;
   height: auto;
 }
 
