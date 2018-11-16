@@ -13,9 +13,9 @@
    sodipodi:docname="ottava-logo.svg"
    id="svg8"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="1122.5197"
-   width="793.70081">
+   viewBox="0 0 232.57029 270.52251"
+   height="1022.4473"
+   width="879.00586">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -30,8 +30,8 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="628.25537"
-     inkscape:cx="460.7543"
+     inkscape:cy="738.89059"
+     inkscape:cx="468.65839"
      inkscape:zoom="0.35355339"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -45,34 +45,38 @@
      inkscape:snap-to-guides="true"
      inkscape:snap-intersection-paths="false"
      inkscape:snap-object-midpoints="false"
-     inkscape:object-paths="false">
+     inkscape:object-paths="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="156.88138,273.15542"
+       position="170.53502,248.05495"
        orientation="0.70710678,0.70710678"
        id="guide4360"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="5.4963054,59.645972"
+       position="19.149954,34.545508"
        orientation="0.70710678,0.70710678"
        id="guide4362"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="199.69427,144.08423"
+       position="213.34791,118.98376"
        orientation="0.70710678,0.70710678"
        id="guide4364"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="25.902295,218.89413"
+       position="39.555942,193.79366"
        orientation="0.70710678,0.70710678"
        id="guide4368"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="121.58534,237.89246"
+       position="135.23898,212.79199"
        orientation="0.70710678,0.70710678"
        id="guide4370"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="83.646574,199.92578"
+       position="97.300218,174.82531"
        orientation="0.70710678,0.70710678"
        id="guide4372"
        inkscape:locked="false" />
@@ -85,14 +89,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(13.653649,-1.3770244)">
     <path
        style="opacity:1;fill:#009696;fill-opacity:1;stroke-width:0.3257198"
        d="M 102.63176,118.44119 A 116.28506,76.729163 0 0 0 -13.653649,195.17036 116.28506,76.729163 0 0 0 102.63176,271.89953 116.28506,76.729163 0 0 0 218.91665,195.17036 116.28506,76.729163 0 0 0 102.63176,118.44119 Z m 0,22.67872 a 54.050591,54.050591 0 0 1 54.05044,54.05045 54.050591,54.050591 0 0 1 -54.05044,54.05045 54.050591,54.050591 0 0 1 -54.050966,-54.05045 54.050591,54.050591 0 0 1 54.050966,-54.05045 z"
