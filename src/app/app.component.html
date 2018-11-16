@@ -5,13 +5,17 @@
     </mat-sidenav>
 
     <mat-sidenav-content class="nav-content">
+
       <div class="row">
         <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
       </div>
+
       <mat-grid-list cols="1" rowHeight="2:1">
         <mat-grid-tile><img class="logo" src="assets/ottava-logo.svg"></mat-grid-tile>
       </mat-grid-list>
+
       <router-outlet></router-outlet>
+
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

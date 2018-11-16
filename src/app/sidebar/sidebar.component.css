@@ -1,23 +1,18 @@
+.logo-sidebar {
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+}
+
 .sidebar-item {
   color: white;
   background-color: rgb(0, 99, 99);
-  font-family: "Roboto", sans-serif !important;
   font-size: 18pt !important;
-  font-weight: lighter !important;
   transition: all 0.25s ease;
 }
 .sidebar-item:hover {
   color: black;
   background-color: rgb(0, 150, 150);
-}
-
-.logo-sidebar {
-  align-content: center;
-  width: inherit;
-}
-
-.logo {
-  text-align: center;
-  width: 50%;
-  height: auto;
 }
