@@ -12,12 +12,11 @@
 }
 
 .logo-sidebar {
-  align-content: center;
-  width: inherit;
+  padding-top: 5%;
 }
 
 .logo {
-  text-align: center;
-  width: 50%;
+  margin: 0 auto;
+  width: 25%;
   height: auto;
 }
