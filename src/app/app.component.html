@@ -1,21 +1,11 @@
-<div class="view">
-  <mat-sidenav-container class="nav-view" [hasBackdrop]="false">
-    <mat-sidenav class="side-open" #sidenav [mode]="'push'">
-      <app-sidebar></app-sidebar>
-    </mat-sidenav>
-
-    <mat-sidenav-content class="nav-content">
-
-      <div class="row">
-        <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
-      </div>
-
-      <mat-grid-list cols="1" rowHeight="2:1">
-        <mat-grid-tile><img class="logo" src="assets/ottava-logo.svg"></mat-grid-tile>
-      </mat-grid-list>
-
+<mat-sidenav-container class="nav-view" [hasBackdrop]="false">
+  <mat-sidenav class="side-open" #sidenav [mode]="'push'">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content class="nav-content">
+    <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
+    <div class="view">
       <router-outlet></router-outlet>
-
-    </mat-sidenav-content>
-  </mat-sidenav-container>
-</div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
