@@ -3,9 +3,18 @@ import { MusicMakerModule } from './../music-maker/music-maker.module';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LandingComponent } from './../landing/landing.component'
 
 const routes: Routes = [
-  { path: 'maker', component: MakerComponent }
+    {
+      path: '',
+      component: LandingComponent,
+    },
+    {
+      path: '**',
+      redirectTo: '/',
+      pathMatch: 'full'
+    }
 ];
 
 @NgModule({
