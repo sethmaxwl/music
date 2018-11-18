@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SidebarAccessService } from 'src/app/sidebar-access.service';
 
 @Component({
   selector: 'app-maker',
@@ -8,17 +7,9 @@ import { SidebarAccessService } from 'src/app/sidebar-access.service';
 })
 export class MakerComponent implements OnInit {
 
-  constructor(private sidebarService: SidebarAccessService) { }
+  constructor() { }
 
   ngOnInit() {
-  }
-
-  toggleSidebar(): void {
-    const sidebar = this.sidebarService.getSidebarReference();
-
-    if (sidebar) {
-      sidebar.toggle();
-    }
   }
 
 }

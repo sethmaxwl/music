@@ -1,4 +1,4 @@
-import { MusicMakerModule } from './music-maker/music-maker.module';
+import { SidebarUtilityModule } from './sidebar-utility/sidebar-utility.module';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -20,7 +20,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatSidenavModule,
     MatListModule,
     AppRoutingModule,
-    MatGridListModule
+    MatGridListModule,
+    SidebarUtilityModule
   ],
   providers: [],
   bootstrap: [AppComponent]
