@@ -7,8 +7,13 @@ import { LandingComponent } from './../landing/landing.component'
 
 const routes: Routes = [
     {
-      path: 'maker',
-      component: MakerComponent
+      path: '',
+      component: LandingComponent,
+    },
+    {
+      path: '**',
+      redirectTo: '/',
+      pathMatch: 'full'
     }
 ];
 
