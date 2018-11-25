@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 .view {
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100vw;
+  height: 100vh;
 }

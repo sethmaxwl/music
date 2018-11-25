@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="261.8524"
-     inkscape:cy="170.80641"
+     inkscape:zoom="1"
+     inkscape:cx="381.8524"
+     inkscape:cy="202.92416"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -42,7 +42,7 @@
      inkscape:window-width="1440"
      inkscape:window-height="782"
      inkscape:window-x="0"
-     inkscape:window-y="-22"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,6 +64,7 @@
      transform="translate(-11.067882,-27.274281)">
     <rect
        id="rect3701"
+<<<<<<< HEAD
        width="201.33426"
        height="72.89373"
        x="11.067882"
@@ -124,6 +125,68 @@
        x="86.595963"
        height="56.003925"
        width="11.281159"
+=======
+       width="201.43552"
+       height="72.924881"
+       x="11.067882"
+       y="27.274281"
+       style="fill:#1a1a1a;stroke-width:0.0848705" />
+    <rect
+       id="rect3703"
+       width="11.286833"
+       height="56.235126"
+       x="15.053287"
+       y="41.047333"
+       style="fill:#ffffff;stroke-width:0.06216094"
+       ry="1.7661951" />
+    <rect
+       ry="1.7661951"
+       style="fill:#ffffff;stroke-width:0.06216094"
+       y="41.047333"
+       x="26.982885"
+       height="56.235126"
+       width="11.286833"
+       id="rect4576" />
+    <rect
+       ry="1.7622949"
+       style="fill:#ffffff;stroke-width:0.06209226"
+       y="41.047333"
+       x="38.913643"
+       height="56.110943"
+       width="11.286833"
+       id="rect4580" />
+    <rect
+       id="rect4582"
+       width="11.286833"
+       height="56.110943"
+       x="50.843719"
+       y="41.047333"
+       style="fill:#ffffff;stroke-width:0.06209226"
+       ry="1.7622949" />
+    <rect
+       ry="1.7583946"
+       style="fill:#ffffff;stroke-width:0.06202352"
+       y="41.047333"
+       x="62.773792"
+       height="55.986759"
+       width="11.286833"
+       id="rect4584" />
+    <rect
+       id="rect4586"
+       width="11.286833"
+       height="56.110943"
+       x="74.703873"
+       y="41.047333"
+       style="fill:#ffffff;stroke-width:0.06209226"
+       ry="1.7622949" />
+    <rect
+       ry="1.7596855"
+       style="fill:#ffffff;stroke-width:0.06204627"
+       y="41.047333"
+       x="86.633942"
+       height="56.027863"
+       width="11.286833"
+>>>>>>> landing page changes
        id="rect4588" />
   </g>
   <g
@@ -132,6 +195,7 @@
      inkscape:label="Layer 2"
      transform="translate(-11.067882,-27.274281)">
     <rect
+<<<<<<< HEAD
        style="fill:#cccccc;fill-opacity:1;stroke-width:0.07189459"
        id="rect4561"
        width="4.8130426"
@@ -216,6 +280,92 @@
          x="101.34706"
          y="51.151543"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78705549px;font-family:'.Arabic UI Display';-inkscape-font-specification:'.Arabic UI Display';stroke-width:0.36169097"
+=======
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.07192802"
+       id="rect4561"
+       width="4.8154631"
+       height="37.486149"
+       x="21.578354"
+       y="41.000778"
+       ry="0" />
+    <rect
+       y="41.000778"
+       x="33.523716"
+       height="37.486149"
+       width="4.8154631"
+       id="rect4564"
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.07192802" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.07192802"
+       id="rect4566"
+       width="4.8154631"
+       height="37.486149"
+       x="57.170341"
+       y="41.000778" />
+    <rect
+       y="41.000778"
+       x="69.142784"
+       height="37.486149"
+       width="4.8154631"
+       id="rect4570"
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.07192802" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.07067942"
+       id="rect4572"
+       width="4.6497283"
+       height="37.486149"
+       x="81.383575"
+       y="41.000778" />
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4592"
+       width="11.272067"
+       height="10.620152"
+       x="100.72632"
+       y="40.705181"
+       ry="2.283056" />
+    <rect
+       ry="2.283056"
+       y="40.705181"
+       x="113.02873"
+       height="10.620152"
+       width="11.272067"
+       id="rect4595"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       inkscape:transform-center-x="1.3047997"
+       inkscape:transform-center-y="3.9747164e-06" />
+    <rect
+       inkscape:transform-center-y="3.8714165e-06"
+       inkscape:transform-center-x="1.3048021"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4597"
+       width="11.272067"
+       height="10.620152"
+       x="125.33113"
+       y="40.705738"
+       ry="2.283056" />
+    <rect
+       ry="2.283056"
+       y="40.705738"
+       x="137.633"
+       height="10.620152"
+       width="11.272067"
+       id="rect4599"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       inkscape:transform-center-x="1.3048118"
+       inkscape:transform-center-y="3.8714165e-06" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="101.38879"
+       y="51.163326"
+       id="text4603"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="101.38879"
+         y="51.163326"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+>>>>>>> landing page changes
          id="tspan4605">6</tspan></text>
     <text
        xml:space="preserve"
@@ -230,6 +380,7 @@
          style="font-size:4.93888903px;stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
+<<<<<<< HEAD
        style="font-style:normal;font-weight:normal;font-size:14.46763897px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36169097"
        x="101.16621"
        y="47.172943"
@@ -262,10 +413,45 @@
          style="font-size:4.3402915px;stroke-width:0.36169097"
          y="45.907032"
          x="113.46371"
+=======
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       x="101.46468"
+       y="46.637711"
+       id="text4615"
+       transform="scale(1.0302353,0.97065204)"><tspan
+         sodipodi:role="line"
+         id="tspan4613"
+         x="101.46468"
+         y="46.637711"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.82478952px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592">^</tspan></text>
+    <text
+       id="text4619"
+       y="51.244762"
+       x="113.33015"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="51.244762"
+         x="113.33015"
+         sodipodi:role="line">7</tspan></text>
+    <text
+       id="text4623"
+       y="45.916374"
+       x="113.51108"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         style="font-size:4.34231091px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="45.916374"
+         x="113.51108"
+>>>>>>> landing page changes
          id="tspan4621"
          sodipodi:role="line">&amp;</tspan></text>
     <text
        xml:space="preserve"
+<<<<<<< HEAD
        style="font-style:normal;font-weight:normal;font-size:6.75156498px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36169097"
        x="125.21866"
        y="51.150997"
@@ -496,6 +682,238 @@
        width="11.266402"
        id="rect4693"
        style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.36169097" />
+=======
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="125.2715"
+       y="51.162777"
+       id="text4627"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="125.2715"
+         y="51.162777"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4625">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="125.99522"
+       y="46.640091"
+       id="text4631"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         id="tspan4629"
+         x="125.99522"
+         y="46.640091"
+         style="font-size:4.82478952px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">*</tspan></text>
+    <text
+       id="text4635"
+       y="51.162777"
+       x="137.03194"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4633"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="51.162777"
+         x="137.03194"
+         sodipodi:role="line">9</tspan></text>
+    <text
+       id="text4639"
+       y="45.554512"
+       x="137.75565"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         style="font-size:3.85983157px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="45.554512"
+         x="137.75565"
+         id="tspan4637"
+         sodipodi:role="line">(</tspan></text>
+    <rect
+       inkscape:transform-center-y="3.8714165e-06"
+       inkscape:transform-center-x="1.3048058"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4641"
+       width="11.272067"
+       height="10.620152"
+       x="149.93506"
+       y="40.705738"
+       ry="2.283056" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="149.15422"
+       y="51.162777"
+       id="text4645"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="149.15422"
+         y="51.162777"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4643">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="137.75565"
+       y="45.554512"
+       id="text4649"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         id="tspan4647"
+         x="137.75565"
+         y="45.554512"
+         style="font-size:3.85983157px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">(</tspan></text>
+    <text
+       id="text4653"
+       y="45.553848"
+       x="150.39941"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         style="font-size:3.85983157px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="45.553848"
+         x="150.39941"
+         id="tspan4651"
+         sodipodi:role="line">)</tspan></text>
+    <rect
+       ry="2.283056"
+       y="40.705738"
+       x="162.23712"
+       height="10.620152"
+       width="11.272067"
+       id="rect4655"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       inkscape:transform-center-x="1.3047998"
+       inkscape:transform-center-y="3.8714165e-06" />
+    <text
+       id="text4659"
+       y="52.598907"
+       x="162.0002"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4657"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="52.598907"
+         x="162.0002"
+         sodipodi:role="line">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="161.5266"
+       y="44.431465"
+       id="text4663"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         id="tspan4661"
+         x="161.5266"
+         y="44.431465"
+         style="font-size:5.78974724px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">_</tspan></text>
+    <rect
+       inkscape:transform-center-y="3.8714165e-06"
+       inkscape:transform-center-x="1.3047985"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4665"
+       width="11.272067"
+       height="10.620152"
+       x="174.53917"
+       y="40.705738"
+       ry="2.283056" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="172.58456"
+       y="52.239876"
+       id="text4669"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="172.58456"
+         y="52.239876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4667">=</tspan></text>
+    <text
+       id="text4673"
+       y="45.51704"
+       x="173.28702"
+       style="font-style:normal;font-weight:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         style="font-size:3.85983157px;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         y="45.51704"
+         x="173.28702"
+         id="tspan4671"
+         sodipodi:role="line">+</tspan></text>
+    <rect
+       ry="2.5464859"
+       y="40.705738"
+       x="186.84122"
+       height="10.620152"
+       width="22.549271"
+       id="rect4675"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.51180452"
+       inkscape:transform-center-x="2.6102036"
+       inkscape:transform-center-y="3.8714165e-06" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       x="190.04733"
+       y="51.183277"
+       id="text4679"
+       transform="scale(1.0302353,0.97065204)"><tspan
+         sodipodi:role="line"
+         id="tspan4677"
+         x="190.04733"
+         y="51.183277"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592">delete</tspan></text>
+    <rect
+       ry="2.283056"
+       y="51.944839"
+       x="107.15713"
+       height="10.620152"
+       width="11.272067"
+       id="rect4681"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4685"
+       y="61.023991"
+       x="107.63087"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4683"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="61.023991"
+         x="107.63087"
+         sodipodi:role="line">Y</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4687"
+       width="11.272067"
+       height="10.620152"
+       x="119.45961"
+       y="51.944839"
+       ry="2.283056" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="119.30083"
+       y="60.941528"
+       id="text4691"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="119.30083"
+         y="60.941528"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4689">U</tspan></text>
+    <rect
+       ry="2.283056"
+       y="51.857029"
+       x="131.76167"
+       height="10.620152"
+       width="11.272067"
+       id="rect4693"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+>>>>>>> landing page changes
     <text
        id="text4697"
        y="51.354198"
@@ -509,6 +927,7 @@
          sodipodi:role="line" /></text>
     <text
        id="text4701"
+<<<<<<< HEAD
        y="61.007145"
        x="132.27165"
        style="font-style:normal;font-weight:normal;font-size:6.75156498px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36169097"
@@ -1073,6 +1492,572 @@
        width="17.414513"
        id="rect4861"
        style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.44967702" />
+=======
+       y="61.02351"
+       x="132.32777"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4699"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="61.02351"
+         x="132.32777"
+         sodipodi:role="line">I</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4705"
+       width="11.272067"
+       height="10.620152"
+       x="144.06374"
+       y="51.857029"
+       ry="2.283056" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="142.91216"
+       y="60.941528"
+       id="text4709"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="142.91216"
+         y="60.941528"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4707">O</tspan></text>
+    <rect
+       ry="2.283056"
+       y="51.857029"
+       x="156.36578"
+       height="10.620152"
+       width="11.272067"
+       id="rect4711"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4715"
+       y="61.02351"
+       x="155.30582"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4713"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="61.02351"
+         x="155.30582"
+         sodipodi:role="line">P</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4717"
+       width="11.272067"
+       height="10.620152"
+       x="168.66783"
+       y="51.857029"
+       ry="2.283056" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       x="167.81909"
+       y="62.728588"
+       id="text4721"
+       transform="scale(1.0302353,0.97065203)"><tspan
+         sodipodi:role="line"
+         x="167.81909"
+         y="62.728588"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592"
+         id="tspan4719">[</tspan></text>
+    <text
+       id="text4725"
+       y="57.66494"
+       x="167.42807"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4723"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="57.66494"
+         x="167.42807"
+         sodipodi:role="line">{</tspan></text>
+    <rect
+       ry="2.283056"
+       y="51.857029"
+       x="180.96988"
+       height="10.620152"
+       width="11.272067"
+       id="rect4727"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4731"
+       y="62.728714"
+       x="180.36455"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.97065202)"><tspan
+         id="tspan4729"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592"
+         y="62.728714"
+         x="180.36455"
+         sodipodi:role="line">]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="180.0027"
+       y="57.66494"
+       id="text4735"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="180.0027"
+         y="57.66494"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4733">}</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.42894334"
+       id="rect4737"
+       width="15.83887"
+       height="10.620152"
+       x="193.27193"
+       y="51.857029"
+       ry="2.1952446" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       x="194.14435"
+       y="63.002361"
+       id="text4741"
+       transform="scale(1.0302353,0.97065202)"><tspan
+         sodipodi:role="line"
+         x="194.14435"
+         y="63.002361"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592"
+         id="tspan4739">\</tspan></text>
+    <text
+       id="text4745"
+       y="57.484009"
+       x="194.47707"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4743"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="57.484009"
+         x="194.47707"
+         sodipodi:role="line">|</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4747"
+       width="11.272067"
+       height="10.620152"
+       x="112.93552"
+       y="63.184494"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3552151"
+       inkscape:transform-center-y="0.17562016" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="112.96831"
+       y="72.603477"
+       id="text4751"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="112.96831"
+         y="72.603477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4749">H</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562016"
+       inkscape:transform-center-x="3.3552039"
+       ry="2.283056"
+       y="63.184494"
+       x="125.2382"
+       height="10.620152"
+       width="11.272067"
+       id="rect4753"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4757"
+       y="72.879623"
+       x="125.51076"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.97065204)"><tspan
+         id="tspan4755"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592"
+         y="72.879623"
+         x="125.51076"
+         sodipodi:role="line">J</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4759"
+       width="11.272067"
+       height="10.620152"
+       x="137.54027"
+       y="63.184494"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3551903"
+       inkscape:transform-center-y="0.17562016" />
+    <text
+       id="text4763"
+       y="72.693939"
+       x="136.94147"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4761"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="72.693939"
+         x="136.94147"
+         sodipodi:role="line">K</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562016"
+       inkscape:transform-center-x="3.3551996"
+       ry="2.283056"
+       y="63.184494"
+       x="149.84232"
+       height="10.620152"
+       width="11.272067"
+       id="rect4765"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="149.33514"
+       y="72.513008"
+       id="text4769"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="149.33514"
+         y="72.513008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4767">L</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4771"
+       width="11.272067"
+       height="10.620152"
+       x="162.14433"
+       y="63.184494"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3552072"
+       inkscape:transform-center-y="0.17562016" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="162.27158"
+       y="68.973038"
+       id="text4775"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="162.27158"
+         y="68.973038"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4773">:</tspan></text>
+    <text
+       id="text4779"
+       y="73.948593"
+       x="162.18112"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4777"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="73.948593"
+         x="162.18112"
+         sodipodi:role="line">;</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562016"
+       inkscape:transform-center-x="3.3551967"
+       ry="2.283056"
+       y="63.184494"
+       x="174.44641"
+       height="10.620152"
+       width="11.272067"
+       id="rect4781"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4785"
+       y="70.895493"
+       x="173.7606"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4783"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="70.895493"
+         x="173.7606"
+         sodipodi:role="line">&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="174.12247"
+       y="74.99527"
+       id="text4789"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="174.12247"
+         y="74.99527"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4787">'</tspan></text>
+    <rect
+       inkscape:transform-center-x="2.6102036"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.51180452"
+       id="rect4791"
+       width="22.549271"
+       height="10.620152"
+       x="186.84122"
+       y="63.185078"
+       ry="2.3708665"
+       inkscape:transform-center-y="1.2333212e-06" />
+    <text
+       id="text4795"
+       y="74.613663"
+       x="190.04733"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.97065204)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592"
+         y="74.613663"
+         x="190.04733"
+         id="tspan4793"
+         sodipodi:role="line">return</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562844"
+       inkscape:transform-center-x="3.3551969"
+       ry="2.283056"
+       y="74.687592"
+       x="107.15757"
+       height="10.620152"
+       width="11.272067"
+       id="rect4797"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4801"
+       y="84.454376"
+       x="107.54042"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4799"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="84.454376"
+         x="107.54042"
+         sodipodi:role="line">B</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4803"
+       width="11.272067"
+       height="10.620152"
+       x="119.45961"
+       y="74.687592"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3552032"
+       inkscape:transform-center-y="0.17562844" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="119.30083"
+       y="84.544838"
+       id="text4807"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="119.30083"
+         y="84.544838"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4805">N</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562844"
+       inkscape:transform-center-x="3.3551972"
+       ry="2.283056"
+       y="74.687592"
+       x="131.76167"
+       height="10.620152"
+       width="11.272067"
+       id="rect4809"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4813"
+       y="84.454376"
+       x="130.97078"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4811"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="84.454376"
+         x="130.97078"
+         sodipodi:role="line">M</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4815"
+       width="11.272067"
+       height="10.620152"
+       x="144.06374"
+       y="74.687592"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3551913"
+       inkscape:transform-center-y="0.17562844" />
+    <text
+       id="text4819"
+       y="81.547562"
+       x="143.36444"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4817"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="81.547562"
+         x="143.36444"
+         sodipodi:role="line">&lt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="144.54048"
+       y="85.43763"
+       id="text4823"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="144.54048"
+         y="85.43763"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4821">,</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562844"
+       inkscape:transform-center-x="3.3552005"
+       ry="2.283056"
+       y="74.687592"
+       x="156.36578"
+       height="10.620152"
+       width="11.272067"
+       id="rect4825"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="155.84857"
+       y="81.547646"
+       id="text4829"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="155.84857"
+         y="81.547646"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4827">&gt;</tspan></text>
+    <text
+       id="text4833"
+       y="86.177559"
+       x="156.93416"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4831"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="86.177559"
+         x="156.93416"
+         sodipodi:role="line">.</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592"
+       id="rect4835"
+       width="11.272067"
+       height="10.620152"
+       x="168.66783"
+       y="74.687592"
+       ry="2.283056"
+       inkscape:transform-center-x="3.3551992"
+       inkscape:transform-center-y="0.17562844" />
+    <text
+       id="text4839"
+       y="81.348251"
+       x="168.15181"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="81.348251"
+         x="168.15181"
+         sodipodi:role="line">?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       x="168.69458"
+       y="85.53936"
+       id="text4843"
+       transform="scale(1.0302353,0.970652)"><tspan
+         sodipodi:role="line"
+         x="168.69458"
+         y="85.53936"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         id="tspan4841">/</tspan></text>
+    <rect
+       inkscape:transform-center-y="0.17562844"
+       inkscape:transform-center-x="8.3764222"
+       ry="2.3708601"
+       y="74.687592"
+       x="180.96988"
+       height="10.620152"
+       width="28.141275"
+       id="rect4847"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.57175469" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.47436905px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592"
+       x="193.24272"
+       y="86.826416"
+       id="text4851"
+       transform="scale(1.0302353,0.97065203)"><tspan
+         sodipodi:role="line"
+         id="tspan4849"
+         x="193.24272"
+         y="86.826416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.34231091px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592">shift</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.69717592"
+       id="rect4853"
+       width="41.841682"
+       height="10.620152"
+       x="101.09956"
+       y="86.366295"
+       ry="2.283056"
+       inkscape:transform-center-x="12.454429"
+       inkscape:transform-center-y="0.17562012" />
+    <rect
+       inkscape:transform-center-y="0.17562535"
+       inkscape:transform-center-x="3.3551997"
+       ry="2.283056"
+       y="86.365753"
+       x="144.15622"
+       height="10.620152"
+       width="11.272067"
+       id="rect4855"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.4498862"
+       id="rect4857"
+       width="17.423271"
+       height="10.620152"
+       x="156.45877"
+       y="86.365753"
+       ry="2.283056"
+       inkscape:transform-center-x="5.1861432"
+       inkscape:transform-center-y="0.17562535" />
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.42767945"
+       id="rect4859"
+       width="15.74567"
+       height="10.620152"
+       x="174.91223"
+       y="86.190132"
+       ry="2.283056"
+       inkscape:transform-center-x="4.686796"
+       inkscape:transform-center-y="0.17562671" />
+    <rect
+       inkscape:transform-center-y="0.17562535"
+       inkscape:transform-center-x="5.1861477"
+       ry="2.283056"
+       y="86.365753"
+       x="191.59518"
+       height="10.620152"
+       width="17.423271"
+       id="rect4861"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.4498862" />
+>>>>>>> landing page changes
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1096,13 +2081,19 @@
          y="85.913681"
          style="stroke-width:0.26458332" /></text>
     <path
+<<<<<<< HEAD
        style="fill:none;stroke:#000000;stroke-width:0.3749887px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 174.36494,91.69527 16.86171,0.08757"
+=======
+       style="fill:none;stroke:#000000;stroke-width:0.37516314px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 174.44706,91.722803 16.87019,0.08761"
+>>>>>>> landing page changes
        id="path4877"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path4885"
+<<<<<<< HEAD
        d="m 183.44942,93.440878 -1.67845,-0.01694 0.8074,1.499186 z"
        style="fill:#000000;stroke:#000000;stroke-width:0.36169097px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="cccc" />
@@ -1110,11 +2101,21 @@
        sodipodi:nodetypes="cccc"
        style="fill:#000000;stroke:#000000;stroke-width:0.36169097px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 181.68419,89.394462 1.67838,0.02191 -0.80241,-1.501565 z"
+=======
+       d="m 183.53612,93.469157 -1.67931,-0.01695 0.80781,1.499826 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.3618592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       style="fill:#000000;stroke:#000000;stroke-width:0.3618592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 181.76999,89.421012 1.67923,0.02192 -0.80281,-1.502208 z"
+>>>>>>> landing page changes
        id="path4887"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path4889"
+<<<<<<< HEAD
        d="m 165.80501,92.390269 -0.0365,-1.581211 -1.56405,0.809004 z"
        style="fill:#000000;stroke:#000000;stroke-width:0.36169097px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="cccc" />
@@ -1147,6 +2148,40 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78705549px;font-family:'.Arabic UI Display';-inkscape-font-specification:'.Arabic UI Display';stroke-width:0.36169097"
          y="72.499763"
          x="100.90074"
+=======
+       d="m 165.88283,92.418099 -0.0365,-1.581888 -1.56485,0.80935 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.3618592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       style="fill:#000000;stroke:#000000;stroke-width:0.3618592px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 199.9158,90.961178 -0.0606,1.58123 1.6119,-0.722759 z"
+       id="path4891"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="0.75244919"
+       inkscape:transform-center-y="0.0087664674" />
+    <rect
+       inkscape:transform-center-y="0.17562016"
+       inkscape:transform-center-x="3.3552082"
+       ry="2.283056"
+       y="63.184494"
+       x="100.63384"
+       height="10.620152"
+       width="11.272067"
+       id="rect4893"
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke-width:0.3618592" />
+    <text
+       id="text4897"
+       y="72.521477"
+       x="100.94227"
+       style="font-style:normal;font-weight:normal;font-size:6.75470591px;line-height:1.25;font-family:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3618592;-inkscape-font-specification:'Helvetica Neue';font-stretch:normal;font-variant:normal;"
+       xml:space="preserve"
+       transform="scale(1.0302353,0.970652)"><tspan
+         id="tspan4895"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.78974724px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';stroke-width:0.3618592;"
+         y="72.521477"
+         x="100.94227"
+>>>>>>> landing page changes
          sodipodi:role="line">G</tspan></text>
   </g>
   <g
@@ -1155,6 +2190,7 @@
      inkscape:label="Layer 3"
      transform="translate(-11.067882,-27.274281)">
     <rect
+<<<<<<< HEAD
        style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06150962"
        id="rect4526"
        width="5.9192176"
@@ -1191,6 +2227,44 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06150962" />
     <g
        transform="matrix(0.0257557,0,0,0.02630334,146.96356,87.852682)"
+=======
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06153823"
+       id="rect4526"
+       width="5.9221945"
+       height="35.176643"
+       x="23.728172"
+       y="40.687725" />
+    <rect
+       y="40.775528"
+       x="35.764202"
+       height="35.176643"
+       width="5.9221945"
+       id="rect4524"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06153823" />
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06153823"
+       id="rect4534"
+       width="5.9221945"
+       height="35.176643"
+       x="71.35804"
+       y="40.863338" />
+    <rect
+       y="40.871712"
+       x="83.174889"
+       height="35.176643"
+       width="5.9221945"
+       id="rect4540"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06153823" />
+    <rect
+       y="40.951153"
+       x="59.322006"
+       height="35.176643"
+       width="5.9221945"
+       id="rect4536"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.06153823" />
+    <g
+       transform="matrix(0.02576865,0,0,0.02631458,147.03191,87.878572)"
+>>>>>>> landing page changes
        id="layer1-6"
        inkscape:label="Layer 1"
        style="display:inline;fill:#000000">
