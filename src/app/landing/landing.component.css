@@ -1,0 +1,71 @@
+html{
+  background-color: rgb(62, 62, 62);
+}
+
+.spacer15{
+  margin-top: 15%;
+}
+
+.spacer10{
+  margin-top: 10%;
+}
+
+.spacer5{
+  margin-top: 5%;
+}
+
+.spacer3{
+  margin-top: 3%;
+}
+
+.spacer1{
+  margin-top: 1%;
+}
+
+#sidebar-button{
+  margin-left: 4%;
+}
+
+#landing-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#keyboard-art{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.landing-row{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#landing-logs{
+  text-align: center;
+}
+
+#login{
+  float: left;
+}
+
+#signup{
+  float: right;
+}
+
+.vert-center{
+  text-align: center;
+}
+
+#note1{
+  float: left;
+  width: 25%;
+  vertical-align: middle;
+}

@@ -3,9 +3,6 @@
     <app-sidebar></app-sidebar>
   </mat-sidenav>
   <mat-sidenav-content class="nav-content">
-    <i class="fas fa-bars fa-3x" id="menu-toggle" (click)="sidenav.toggle()"></i>
-    <div class="view">
-      <router-outlet></router-outlet>
-    </div>
+    <router-outlet class="view"></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
