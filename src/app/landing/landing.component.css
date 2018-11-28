@@ -1,7 +1,4 @@
-html{
-  background-color: rgb(62, 62, 62);
-}
-
+@media screen and (min-width)
 .spacer15{
   margin-top: 15%;
 }
@@ -66,6 +63,13 @@ html{
 
 #note1{
   float: left;
-  width: 25%;
-  vertical-align: middle;
+  width: 110%;
+  display: inline-block;
+  margin-top: 30%;
+}
+#note2{
+  float: right;
+  width: 60%;
+  display: inline-block;
+  margin-top: 30%;
 }
