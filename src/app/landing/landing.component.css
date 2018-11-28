@@ -1,0 +1,133 @@
+@import 'animate.css/animate.css';
+.spacer15{
+  margin-top: 15%;
+}
+
+.spacer10{
+  margin-top: 10%;
+}
+
+.spacer5{
+  margin-top: 5%;
+}
+
+.spacer3{
+  margin-top: 3%;
+}
+
+.spacer1{
+  margin-top: 1%;
+}
+
+#sidebar-button{
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#landing-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#keyboard-art{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.landing-row{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+#landing-logs{
+  text-align: center;
+}
+
+#login{
+  float: left;
+}
+
+#signup{
+  float: right;
+}
+
+.vert-center{
+  text-align: center;
+}
+
+#note1{
+  margin-left: 15%;
+  float: left;
+  width: 110%;
+  display: inline-block;
+  margin-top: 30%;
+  animation: rotation 2s infinite linear;
+}
+#note2{
+  margin-right: 15%;
+  float: right;
+  width: 60%;
+  display: inline-block;
+  margin-top: 30%;
+  animation: rotation 2s infinite linear;
+}
+
+.view{
+  background-image: "assets/landing-backdrop.svg";
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1680px) and (min-width: 1200px){
+  #content-spacer{
+    margin-top: 10% !important;
+  }
+}
+@media (max-width: 991px) {
+  .landing-row{
+    color: #000000;
+  }
+  h1{
+    /* font-size: 100%; */
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px){
+  #content-spacer{
+    margin-top: 5%;
+  }
+  #landing-logs{
+    margin-top: 5%;
+  }
+  .landing-row{
+    color: #000000
+  }
+}
+@media (max-width: 767px) {
+  #landing-logs{
+    margin-top: 15%;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

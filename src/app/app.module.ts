@@ -8,11 +8,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { LandingComponent } from './landing/landing.component';
+import { MatButtonModule } from '@angular/material';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatListModule,
     AppRoutingModule,
     MatGridListModule,
-    SidebarUtilityModule
+    SidebarUtilityModule,
+    MatButtonModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

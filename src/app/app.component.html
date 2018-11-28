@@ -1,11 +1,8 @@
-<div class="view">
-  <mat-sidenav-container class="nav-view" [hasBackdrop]="false">
-    <mat-sidenav class="side-open" #sidenav [mode]="'push'">
-      <app-sidebar></app-sidebar>
-    </mat-sidenav>
-
-    <mat-sidenav-content class="nav-content">
-      <router-outlet></router-outlet>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
-</div>
+<mat-sidenav-container class="nav-view" [hasBackdrop]="false">
+  <mat-sidenav class="side-open" #sidenav [mode]="'push'">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content class="nav-content">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
