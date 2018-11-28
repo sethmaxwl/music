@@ -5,14 +5,7 @@
 #FF416B rgb(255, 65, 107)
 #DB38AE rgb(219, 56, 174)
 */
-<<<<<<< HEAD
-=======
-.mat-drawer-content{
-  background-image: url('../assets/landing-backdrop.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
->>>>>>> fa6e01b36389db993f3d23692d5b2f93633fbe34
+
 .nav-view {
   width: 100vw;
   height: 100vh;
