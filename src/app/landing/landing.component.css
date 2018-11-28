@@ -1,4 +1,4 @@
-@media screen and (min-width)
+@import 'animate.css/animate.css';
 .spacer15{
   margin-top: 15%;
 }
@@ -20,7 +20,8 @@
 }
 
 #sidebar-button{
-  margin-left: 4%;
+  margin-top: 3%;
+  margin-left: 3%;
 }
 
 #landing-logo{
@@ -62,14 +63,71 @@
 }
 
 #note1{
+  margin-left: 15%;
   float: left;
   width: 110%;
   display: inline-block;
   margin-top: 30%;
+  animation: rotation 2s infinite linear;
 }
 #note2{
+  margin-right: 15%;
   float: right;
   width: 60%;
   display: inline-block;
   margin-top: 30%;
+  animation: rotation 2s infinite linear;
+}
+
+.view{
+  background-image: "assets/landing-backdrop.svg";
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1680px) and (min-width: 1200px){
+  #content-spacer{
+    margin-top: 10% !important;
+  }
+}
+@media (max-width: 991px) {
+  .landing-row{
+    color: #000000;
+  }
+  h1{
+    /* font-size: 100%; */
+  }
+}
+@media (max-width: 1199px) and (min-width: 768px){
+  #content-spacer{
+    margin-top: 5%;
+  }
+  #landing-logs{
+    margin-top: 5%;
+  }
+  .landing-row{
+    color: #000000
+  }
+}
+@media (max-width: 767px) {
+  #landing-logs{
+    margin-top: 15%;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
