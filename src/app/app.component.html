@@ -3,6 +3,6 @@
     <app-sidebar></app-sidebar>
   </mat-sidenav>
   <mat-sidenav-content class="nav-content">
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="this.sidebarService.getSidebarReference().toggle()"></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

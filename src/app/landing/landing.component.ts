@@ -11,11 +11,7 @@ export class LandingComponent implements OnInit {
   constructor(private sidebarService: SidebarAccessService) { }
 
   ngOnInit() {
-    window.document.body.style.backgroundImage = 'url("assets/landing-backdrop.svg")';
-    window.document.body.style.backgroundRepeat = 'no-repeat';
-    window.document.body.style.backgroundSize = 'cover';
-    window.document.body.style.backgroundPosition = 'center center';
-    window.document.body.style.overflowY = 'hidden';
+    
   }
 
 }

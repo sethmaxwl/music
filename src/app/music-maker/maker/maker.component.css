@@ -1,4 +1,7 @@
-.toggle {
+#sidebar-button{
   margin-left: 3%;
-  margin-top: 2%;
+  margin-top: 3%;
 }
+/* :host .view{
+  background-image: url('../../../assets/landing-keyboard.svg');
+} */
