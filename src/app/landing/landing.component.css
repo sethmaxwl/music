@@ -131,3 +131,11 @@
     transform: rotate(0deg);
   }
 }
+
+:host .view{
+  background-image: url("../../assets/landing-backdrop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+}
