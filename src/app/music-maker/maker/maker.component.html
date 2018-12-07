@@ -1,9 +1,8 @@
-<div class="mdc-layout-grid">
-  <div class="mdc-layout-grid__inner">
-    <div class="mdc-layout-grid__cell--span-1 toggle">
-      <button mat-button (click)="onClick()">Action</button>
-    </div>
-    <div class="mdc-layout-grid__cell--span-11">
+<div class="view">
+  <div id="sidebar-button">
+    <app-sidebar-toggle-button></app-sidebar-toggle-button>
+    <div class="container">
+      <button class="btn btn-primary" mat-button (click)="onClick()">Action</button>
     </div>
   </div>
 </div>
