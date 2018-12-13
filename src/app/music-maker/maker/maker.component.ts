@@ -7,7 +7,9 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 
 export class MakerComponent {
+  types = ["pwm", "sine"];
   octave = 4;
+  type = "pwm";
   @HostListener('window:keydown', ['$event']) keyEvent(event: KeyboardEvent) {
     switch (event.keyCode) {
       case 65: //A
@@ -55,7 +57,7 @@ export class MakerComponent {
     }
   }
   makeMusic(frequency) {
-    var osc = new Tone.OmniOscillator(frequency, "pwm");
+    var osc = new Tone.OmniOscillator(frequency, this.type);
     osc.start();
     var env = new Tone.AmplitudeEnvelope();
     osc.connect(env);
@@ -72,5 +74,8 @@ export class MakerComponent {
     if (this.octave > 2){
       this.octave--;
     }
+  }
+  updateSelection(selection) {
+    this.type = selection;
   }
 }

@@ -11,7 +11,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { LandingComponent } from './landing/landing.component';
 import { MatButtonModule } from '@angular/material';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +26,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatGridListModule,
     SidebarUtilityModule,
     MatButtonModule,
-    NgbModule
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

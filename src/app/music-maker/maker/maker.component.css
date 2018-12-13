@@ -2,6 +2,9 @@
   margin-left: 3%;
   margin-top: 3%;
 }
-/* :host .view{
-  background-image: url('../../../assets/landing-keyboard.svg');
-} */
+.mat-slider-horizontal .mat-slider-track-fill{
+  background-color: black;
+}
+.mat-slider-track-fill{
+  background-color: gray;
+}
