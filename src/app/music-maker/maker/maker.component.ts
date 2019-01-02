@@ -70,7 +70,7 @@ export class MakerComponent {
     env.triggerAttackRelease(0.1);
     setTimeout(function(){
       osc.dispose();
-    }, 500);
+    }, 1000);
   }
   increment(){
     if (this.octave < this.maxOctave){
