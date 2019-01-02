@@ -7,9 +7,13 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 
 export class MakerComponent {
-  types = ["pwm", "sine"];
+  maxOctave = 8;
+  minOctave = 2;
+  types = ["pwm", "sine", "pulse"];
   octave = 4;
   type = "pwm";
+  env = new Tone.AmplitudeEnvelope();
+  displayMessage = "Selected type: " + this.type;
   @HostListener('window:keydown', ['$event']) keyEvent(event: KeyboardEvent) {
     switch (event.keyCode) {
       case 65: //A
@@ -63,19 +67,31 @@ export class MakerComponent {
     osc.connect(env);
     env.toMaster();
     osc.start();
-    env.triggerAttackRelease(1);
+    env.triggerAttackRelease(0.1);
+    setTimeout(function(){
+      osc.dispose();
+    }, 500);
   }
   increment(){
-    if (this.octave < 8){
+    if (this.octave < this.maxOctave){
       this.octave++;
     }
   }
   decrement(){
-    if (this.octave > 2){
+    if (this.octave > this.minOctave){
       this.octave--;
     }
   }
   updateSelection(selection) {
     this.type = selection;
+    if (selection == 'sine') {
+      if (this.octave < 4) {
+        this.octave = 4;
+      }
+      this.minOctave = 4;
+    } else {
+      this.minOctave = 2;
+    }
+    this.displayMessage = "Selected type: " + selection;
   }
 }
