@@ -8,7 +8,7 @@
           <button class="dropdown-item" *ngFor="let type of types" (click)="updateSelection(type)">{{type}}</button>
         </div>
       </div>
-      <input type="number">
+      <input (keyup)="onKey($event)">
       <div class="octave">
         <h1>{{octave}}</h1>
       </div>

@@ -7,6 +7,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 
 export class MakerComponent {
+  number = 1;
   maxOctave = 8;
   minOctave = 2;
   types = ["pwm", "sine", "pulse"];
@@ -67,11 +68,12 @@ export class MakerComponent {
     osc.connect(env);
     env.toMaster();
     osc.start();
-    env.triggerAttackRelease(0.1);
+    env.triggerAttack();
     setTimeout(function(){
       osc.dispose();
-    }, 1000);
+    }, (this.number * 1000));
   }
+  onKey(event) {this.number = event.target.value;}
   increment(){
     if (this.octave < this.maxOctave){
       this.octave++;
