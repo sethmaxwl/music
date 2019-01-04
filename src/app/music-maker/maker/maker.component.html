@@ -2,19 +2,27 @@
   <div id="sidebar-button">
     <app-sidebar-toggle-button></app-sidebar-toggle-button>
     <div class="container">
-      <mat-form-field>
-        <mat-select placeholder="Synth type" [(value)]="type">
-          <mat-option value="pwm">PWM</mat-option>
-          <mat-option value="sine">Sine</mat-option>
-          <mat-option value="pulse">Pulse</mat-option>
-        </mat-select>
-      </mat-form-field>
-      <mat-form-field>
-        <input matInput placeholder="Duration of notes" type="number" (keyup)="onKey($event)">
-      </mat-form-field>
-      <div class="octave">
-        <h1>{{octave}}</h1>
-      </div>
+      <mat-grid-list cols="3" rowHeight="3:1">
+        <mat-grid-tile>
+          <mat-form-field>
+            <mat-select placeholder="Synth type" [(value)]="type">
+              <mat-option value="pwm">PWM</mat-option>
+              <mat-option value="sine">Sine</mat-option>
+              <mat-option value="pulse">Pulse</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-form-field>
+            <input matInput placeholder="Duration of notes" type="number" (keyup)="onKey($event)">
+          </mat-form-field>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <div class="octave">
+            <h1>Octave: {{octave}}</h1>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
     </div>
   </div>
 </div>
