@@ -10,7 +10,6 @@ export class MakerComponent {
   number = 1;
   maxOctave = 8;
   minOctave = 2;
-  types = ["pwm", "sine", "pulse"];
   octave = 4;
   type = "pwm";
   env = new Tone.AmplitudeEnvelope();
@@ -73,7 +72,9 @@ export class MakerComponent {
       osc.dispose();
     }, (this.number * 1000));
   }
-  onKey(event) {this.number = event.target.value;}
+  onKey(event){
+    this.number = event.target.value;
+  }
   increment(){
     if (this.octave < this.maxOctave){
       this.octave++;

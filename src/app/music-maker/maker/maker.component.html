@@ -2,13 +2,16 @@
   <div id="sidebar-button">
     <app-sidebar-toggle-button></app-sidebar-toggle-button>
     <div class="container">
-      <div ngbDropdown>
-        <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle><strong>{{displayMessage}}</strong></button>
-        <div ngbDropdownMenu aria-labelledby="dropdownConfig">
-          <button class="dropdown-item" *ngFor="let type of types" (click)="updateSelection(type)">{{type}}</button>
-        </div>
-      </div>
-      <input (keyup)="onKey($event)">
+      <mat-form-field>
+        <mat-select placeholder="Synth type" [(value)]="type">
+          <mat-option value="pwm">PWM</mat-option>
+          <mat-option value="sine">Sine</mat-option>
+          <mat-option value="pulse">Pulse</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Duration of notes" type="number" (keyup)="onKey($event)">
+      </mat-form-field>
       <div class="octave">
         <h1>{{octave}}</h1>
       </div>

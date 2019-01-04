@@ -5,6 +5,9 @@ import { CommonModule } from '@angular/common';
 import { MakerComponent } from './maker/maker.component';
 import {MatSliderModule} from '@angular/material/slider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   imports: [
@@ -12,7 +15,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatSidenavModule,
     SidebarUtilityModule,
     MatSliderModule,
-    NgbModule
+    NgbModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule
   ],
   declarations: [MakerComponent],
   exports: [MakerComponent]
