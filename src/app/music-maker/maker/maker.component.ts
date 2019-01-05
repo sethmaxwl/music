@@ -7,11 +7,13 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 
 export class MakerComponent {
-  number = 1;
+  noteLength = 1;
   maxOctave = 8;
   minOctave = 2;
   octave = 4;
-  type = 'pwm';
+  oscType = '';
+  frequency = '1';
+  type = 'sine';
   env = new Tone.AmplitudeEnvelope();
   displayMessage = 'Selected type: ' + this.type;
   @HostListener('window:keydown', ['$event']) keyEvent(event: KeyboardEvent) {
@@ -61,7 +63,7 @@ export class MakerComponent {
     }
   }
   makeMusic(frequency) {
-    const osc = new Tone.OmniOscillator(frequency, this.type);
+    const osc = new Tone.OmniOscillator(frequency, this.oscType + this.type + this.frequency);
     osc.start();
     const env = new Tone.AmplitudeEnvelope();
     osc.connect(env);
@@ -70,10 +72,10 @@ export class MakerComponent {
     env.triggerAttack();
     setTimeout(function() {
       osc.dispose();
-    }, (this.number * 1000));
+    }, (this.noteLength * 1000));
   }
   onKey(event) {
-    this.number = event.target.value;
+    this.noteLength = event.target.value;
   }
   increment() {
     if (this.octave < this.maxOctave) {

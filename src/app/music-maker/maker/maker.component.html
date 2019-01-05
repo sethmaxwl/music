@@ -2,28 +2,59 @@
   <div id="sidebar-button">
     <app-sidebar-toggle-button></app-sidebar-toggle-button>
     <div class="container">
-      <mat-grid-list cols="3" rowHeight="3:1">
-        <mat-grid-tile>
-          <app-metronome></app-metronome>
+      <div class="row">
+        <div class="col">
           <mat-form-field>
-            <mat-select placeholder="Synth type" [(value)]="type">
-              <mat-option value="pwm">PWM</mat-option>
-              <mat-option value="sine">Sine</mat-option>
-              <mat-option value="pulse">Pulse</mat-option>
+            <mat-select placeholder="Type of Oscillator" [(value)]="oscType">
+              <mat-option value="">None</mat-option>
+              <mat-option value="fm">FM</mat-option>
+              <mat-option value="am">AM</mat-option>
+              <mat-option value="fat">Fat</mat-option>
             </mat-select>
           </mat-form-field>
-        </mat-grid-tile>
-        <mat-grid-tile>
+        </div>
+        <div class="col">
           <mat-form-field>
-            <input matInput placeholder="Duration of notes" type="number" (keyup)="onKey($event)">
+            <mat-select placeholder="Wave type" [(value)]="type">
+              <mat-option value="sine">Sine</mat-option>
+              <mat-option value="square">Square</mat-option>
+              <mat-option value="sawtooth">Sawtooth</mat-option>
+              <mat-option value="triangle">Triangle</mat-option>
+            </mat-select>
           </mat-form-field>
-        </mat-grid-tile>
-        <mat-grid-tile>
+        </div>
+        <div class="col">
+          <mat-form-field>
+            <mat-select placeholder="Frequency" [(value)]="frequency">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+              <mat-option value="5">5</mat-option>
+              <mat-option value="6">6</mat-option>
+              <mat-option value="7">7</mat-option>
+              <mat-option value="8">8</mat-option>
+              <mat-option value="9">9</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field>
+            <input matInput value="1" placeholder="Duration of notes (in seconds)" type="number" (keyup)="onKey($event)">
+          </mat-form-field>
+        </div>
+        <div class="col">
           <div class="octave">
-            <h1>Octave: {{octave}}</h1>
+            <h1>Octave: {{octave - 1}}</h1>
           </div>
-        </mat-grid-tile>
-      </mat-grid-list>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <img src="assets/maker-keyboard.svg"/>
+      </div>
     </div>
   </div>
 </div>
