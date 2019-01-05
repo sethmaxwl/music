@@ -1,0 +1,6 @@
+<div class="metronome">
+  <mat-form-field>
+    <input matInput type="number" [(ngModel)]="bpm" value="60" placeholder="BPM">
+  </mat-form-field>
+  <mat-button-toggle (click)="toggleMetronome()">Toggle Metronome at {{bpm}}</mat-button-toggle>
+</div>

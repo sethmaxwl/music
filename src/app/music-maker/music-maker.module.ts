@@ -9,6 +9,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { MetronomeComponent } from './metronome/metronome.component';
+import { MatButtonToggleModule } from '@angular/material';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -20,9 +23,11 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonToggleModule,
+    FormsModule
   ],
-  declarations: [MakerComponent],
+  declarations: [MakerComponent, MetronomeComponent],
   exports: [MakerComponent]
 })
 export class MusicMakerModule { }

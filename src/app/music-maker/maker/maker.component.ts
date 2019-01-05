@@ -11,83 +11,83 @@ export class MakerComponent {
   maxOctave = 8;
   minOctave = 2;
   octave = 4;
-  type = "pwm";
+  type = 'pwm';
   env = new Tone.AmplitudeEnvelope();
-  displayMessage = "Selected type: " + this.type;
+  displayMessage = 'Selected type: ' + this.type;
   @HostListener('window:keydown', ['$event']) keyEvent(event: KeyboardEvent) {
     switch (event.keyCode) {
-      case 65: //A
-        this.makeMusic("C" + this.octave);
+      case 65: // A
+        this.makeMusic('C' + this.octave);
         break;
-      case 87: //W
-        this.makeMusic("C#" + this.octave);
+      case 87: // W
+        this.makeMusic('C#' + this.octave);
         break;
-      case 83: //S
-        this.makeMusic("D" + this.octave);
+      case 83: // S
+        this.makeMusic('D' + this.octave);
         break;
-      case 69: //E
-        this.makeMusic("D#" + this.octave);
+      case 69: // E
+        this.makeMusic('D#' + this.octave);
         break;
-      case 68: //D
-        this.makeMusic("E" + this.octave);
+      case 68: // D
+        this.makeMusic('E' + this.octave);
         break;
-      case 70: //F
-        this.makeMusic("F" + this.octave);
+      case 70: // F
+        this.makeMusic('F' + this.octave);
         break;
-      case 84: //T
-        this.makeMusic("F#" + this.octave);
+      case 84: // T
+        this.makeMusic('F#' + this.octave);
         break;
-      case 71: //G
-        this.makeMusic("G" + this.octave);
+      case 71: // G
+        this.makeMusic('G' + this.octave);
         break;
       case 89: // Y
-        this.makeMusic("G#" + this.octave);
+        this.makeMusic('G#' + this.octave);
         break;
-      case 72: //H
-        this.makeMusic("A" + this.octave);
+      case 72: // H
+        this.makeMusic('A' + this.octave);
         break;
       case 85: // U
-        this.makeMusic("A#" + this.octave);
+        this.makeMusic('A#' + this.octave);
         break;
-      case 74: //J
-        this.makeMusic("B" + this.octave);
+      case 74: // J
+        this.makeMusic('B' + this.octave);
         break;
-      case 77: //M
+      case 77: // M
         this.increment();
         break;
-      case 78: //N
+      case 78: // N
         this.decrement();
         break;
     }
   }
   makeMusic(frequency) {
-    var osc = new Tone.OmniOscillator(frequency, this.type);
+    const osc = new Tone.OmniOscillator(frequency, this.type);
     osc.start();
-    var env = new Tone.AmplitudeEnvelope();
+    const env = new Tone.AmplitudeEnvelope();
     osc.connect(env);
     env.toMaster();
     osc.start();
     env.triggerAttack();
-    setTimeout(function(){
+    setTimeout(function() {
       osc.dispose();
     }, (this.number * 1000));
   }
-  onKey(event){
+  onKey(event) {
     this.number = event.target.value;
   }
-  increment(){
-    if (this.octave < this.maxOctave){
+  increment() {
+    if (this.octave < this.maxOctave) {
       this.octave++;
     }
   }
-  decrement(){
-    if (this.octave > this.minOctave){
+  decrement() {
+    if (this.octave > this.minOctave) {
       this.octave--;
     }
   }
   updateSelection(selection) {
     this.type = selection;
-    if (selection == 'sine') {
+    if (selection === 'sine') {
       if (this.octave < 4) {
         this.octave = 4;
       }
@@ -95,6 +95,6 @@ export class MakerComponent {
     } else {
       this.minOctave = 2;
     }
-    this.displayMessage = "Selected type: " + selection;
+    this.displayMessage = 'Selected type: ' + selection;
   }
 }
