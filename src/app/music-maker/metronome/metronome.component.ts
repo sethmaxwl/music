@@ -7,18 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MetronomeComponent implements OnInit {
   bpm = 60;
-  metronomeOn = false;
   metronome: any;
+  metronomeSound: any;
+  metronomePlayer: any;
 
   constructor() { }
 
   ngOnInit() {
+    this.metronomeSound = new Tone.OmniOscillator('c4', 'square2').start();
+    this.metronomePlayer = new Tone.AmplitudeEnvelope().toMaster();
+
+    this.metronomeSound.connect(this.metronomePlayer);
   }
 
-  toggleMetronome() {
-    this.metronomeOn = !this.metronomeOn;
+  playBeat() {
+    this.metronomePlayer.triggerAttackRelease(0.05);
+  }
 
-    if (this.metronomeOn) {
+  toggleMetronome(metronomeOn: boolean) {
+    if (metronomeOn) {
       this.enableMetronome();
     } else {
       this.disableMetronome();
@@ -26,11 +33,11 @@ export class MetronomeComponent implements OnInit {
   }
 
   enableMetronome() {
-
+    this.metronome = new Tone.Loop(this.playBeat, this.bpm / 60.0).start();
   }
 
   disableMetronome() {
-
+    this.metronome.stop();
   }
 
 }
