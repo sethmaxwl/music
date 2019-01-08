@@ -1,4 +1,11 @@
 <mat-form-field class="metronome-settings">
   <input matInput type="number" [(ngModel)]="bpm" placeholder="BPM">
 </mat-form-field>
-<mat-button-toggle #metToggle (click)="toggleMetronome(metToggle.checked)">Toggle Metronome at {{bpm}}</mat-button-toggle>
+<mat-button-toggle #metToggle (click)="toggleMetronome(metToggle.checked)">
+  <span *ngIf="!metToggle.checked" >
+    Toggle Metronome at {{bpm}}
+  </span>
+  <span *ngIf="metToggle.checked" >
+    Toggle Metronome at {{playingBpm}}
+  </span>
+</mat-button-toggle>
