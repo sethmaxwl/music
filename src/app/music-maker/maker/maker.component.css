@@ -8,3 +8,24 @@
 .mat-slider-track-fill{
   background-color: gray;
 }
+#graphic-col{
+
+}
+#options-col{
+
+}
+#maker-keyboard{
+  top: 50%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.maker-col{
+  height: 100vh !important;
+}
+.container{
+  position: relative;
+  height: 100vh !important
+}
