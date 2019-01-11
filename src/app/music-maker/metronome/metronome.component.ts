@@ -9,19 +9,18 @@ export class MetronomeComponent implements OnInit {
   bpm = Tone.Transport.bpm.value;
   playingBpm: number;
   metronomeEventId: number;
-
+  metSound: Tone.Player;
+  metEnv: Tone.AmplitudeEnvelope;
   constructor() { }
 
   ngOnInit() {
+    this.metSound = new Tone.Player("../../assets/Woodblock.wav");
+    this.metSound.toMaster();
+    this.metEnv = new Tone.AmplitudeEnvelope().toMaster();
   }
 
   playBeat() {
-    const metSound = new Tone.OmniOscillator('c4', 'square3').start();
-    const metPlayer = new Tone.AmplitudeEnvelope().toMaster();
-
-    metSound.connect(metPlayer);
-
-    metPlayer.triggerAttackRelease(0.05);
+    this.metSound.start();
   }
 
   toggleMetronome(metronomeOn: boolean) {
@@ -36,7 +35,7 @@ export class MetronomeComponent implements OnInit {
     this.playingBpm = this.bpm;
 
     Tone.Transport.bpm.value = this.bpm;
-    this.metronomeEventId = Tone.Transport.scheduleRepeat(this.playBeat, '4n');
+    this.metronomeEventId = Tone.Transport.scheduleRepeat(this.playBeat(), '4n');
     Tone.Transport.start();
   }
 
