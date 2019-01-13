@@ -36,7 +36,10 @@ export class MetronomeComponent implements OnInit {
     this.playingBpm = this.bpm;
 
     Tone.Transport.bpm.value = this.bpm;
-    this.metronomeEventId = Tone.Transport.scheduleRepeat(this.playBeat, '4n');
+    const self = this;
+    this.metronomeEventId = Tone.Transport.scheduleRepeat(function(time) {
+      self.playBeat();
+    }, '4n');
     Tone.Transport.start();
   }
 
