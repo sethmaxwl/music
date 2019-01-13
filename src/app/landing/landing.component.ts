@@ -11,7 +11,7 @@ export class LandingComponent implements OnInit {
   constructor(private sidebarService: SidebarAccessService) { }
 
   ngOnInit() {
-    
+    Tone.Transport.stop();
   }
 
 }

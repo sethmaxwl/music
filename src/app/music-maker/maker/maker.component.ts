@@ -1,5 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
+const metSound = new Tone.Player("../../assets/Woodblock.wav");
+
 @Component({
   selector: 'app-maker',
   templateUrl: './maker.component.html',
@@ -15,6 +17,8 @@ export class MakerComponent {
   frequency = '1';
   type = 'sine';
   env = new Tone.AmplitudeEnvelope();
+  bpm = Tone.Transport.bpm.value;
+  metronomeEventId: number;
   displayMessage = 'Selected type: ' + this.type;
   @HostListener('window:keydown', ['$event']) keyEvent(event: KeyboardEvent) {
     switch (event.keyCode) {
@@ -98,5 +102,43 @@ export class MakerComponent {
       this.minOctave = 2;
     }
     this.displayMessage = 'Selected type: ' + selection;
+  }
+  ngOnInit() {
+    metSound.loop = false;
+    metSound.toMaster();
+  }
+
+  playBeat() {
+    metSound.start('+0', 0, '1n');
+  }
+
+  toggleMetronome(metronomeOn: boolean) {
+    if (metronomeOn) {
+      this.enableMetronome();
+    } else {
+      this.disableMetronome();
+    }
+  }
+
+  enableMetronome() {
+    const self = this;
+    this.metronomeEventId = Tone.Transport.scheduleRepeat(function (time) {
+      self.playBeat();
+    }, '4n');
+    Tone.Transport.start();
+  }
+
+  updateBPM() {
+    if (this.bpm > 0) {
+      Tone.Transport.bpm.value = this.bpm;
+    } else {
+      Tone.Transport.bpm.value = 1;
+      document.getElementById("mat-input-1").value = 1;
+    }
+  }
+
+  disableMetronome() {
+    Tone.Transport.clear(this.metronomeEventId);
+    Tone.Transport.stop();
   }
 }

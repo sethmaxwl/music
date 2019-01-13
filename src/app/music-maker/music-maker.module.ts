@@ -27,7 +27,7 @@ import { FormsModule } from '@angular/forms';
     MatButtonToggleModule,
     FormsModule
   ],
-  declarations: [MakerComponent, MetronomeComponent],
+  declarations: [MakerComponent],
   exports: [MakerComponent]
 })
 export class MusicMakerModule { }
