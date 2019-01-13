@@ -10,7 +10,6 @@ const metSound = new Tone.Player('../../assets/Woodblock.wav');
 
 export class MetronomeComponent implements OnInit {
   bpm = Tone.Transport.bpm.value;
-  playingBpm: number;
   metronomeEventId: number;
 
   constructor() { }
@@ -21,7 +20,7 @@ export class MetronomeComponent implements OnInit {
   }
 
   playBeat() {
-    metSound.start();
+    metSound.start('+0', 0, '1n');
   }
 
   toggleMetronome(metronomeOn: boolean) {
@@ -33,14 +32,15 @@ export class MetronomeComponent implements OnInit {
   }
 
   enableMetronome() {
-    this.playingBpm = this.bpm;
-
-    Tone.Transport.bpm.value = this.bpm;
     const self = this;
-    this.metronomeEventId = Tone.Transport.scheduleRepeat(function(time) {
+    this.metronomeEventId = Tone.Transport.scheduleRepeat(function (time) {
       self.playBeat();
     }, '4n');
     Tone.Transport.start();
+  }
+
+  updateBPM() {
+    Tone.Transport.bpm.value = this.bpm;
   }
 
   disableMetronome() {
