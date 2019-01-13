@@ -1,18 +1,19 @@
 <div class="view">
   <div id="sidebar-button">
     <app-sidebar-toggle-button></app-sidebar-toggle-button>
-    <div class="container">
-      <div class="row">
-        <div class="col-8 maker-col" id="graphic-col">
+    <div class="d-flex justify-content-between">
+      <div class="container">
+        <div class="maker-col" id="graphic-col">
           <img src="assets/maker-keyboard.svg" id="maker-keyboard"/>
         </div>
-        <div class="col-2 maker-col" id="options-col">
-          <div class="row options">
-            <div class="octave">
-              <h1>Octave: {{octave - 1}}</h1>
-            </div>
+      </div>
+      <div class="maker-col" id="options-col">
+        <div class="flex-row-reverse options">
+          <div class="octave float-right">
+            <h1>Octave: {{octave - 1}}</h1>
           </div>
-          <div class="row options">
+        </div>
+          <div class="flex-row-reverse options float-right">
             <mat-form-field>
               <mat-select placeholder="Type of Oscillator" [(value)]="oscType">
                 <mat-option value="">None</mat-option>
@@ -22,7 +23,7 @@
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="row options">
+          <div class="flex-row-reverse options float-right">
             <mat-form-field>
               <mat-select placeholder="Wave type" [(value)]="type">
                 <mat-option value="sine">Sine</mat-option>
@@ -32,7 +33,7 @@
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="row options">
+          <div class="flex-row-reverse options">
             <mat-form-field>
               <mat-select placeholder="Frequency" [(value)]="frequency">
                 <mat-option value="1">1</mat-option>
@@ -47,16 +48,15 @@
               </mat-select>
             </mat-form-field>
           </div>
-          <div class="row options">
+          <div class="flex-row-reverse options">
             <mat-form-field>
               <input matInput value="1" placeholder="Duration of notes (in seconds)" type="number" (keyup)="onKey($event)">
             </mat-form-field>
           </div>
-          <div class="row">
+          <div class="flex-row-reverse">
             <app-metronome></app-metronome>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </div>
