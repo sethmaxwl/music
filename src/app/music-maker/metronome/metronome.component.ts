@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-var metSound = new Tone.Player("../../assets/Woodblock.wav");
+const metSound = new Tone.Player('../../assets/Woodblock.wav');
 
 @Component({
   selector: 'app-metronome',
@@ -12,15 +12,12 @@ export class MetronomeComponent implements OnInit {
   bpm = Tone.Transport.bpm.value;
   playingBpm: number;
   metronomeEventId: number;
-  // metSound;
-  metEnv;
+
   constructor() { }
 
   ngOnInit() {
-    // this.metSound = new Tone.Player("../../assets/Woodblock.wav");
     metSound.loop = false;
     metSound.toMaster();
-    this.metEnv = new Tone.AmplitudeEnvelope().toMaster();
   }
 
   playBeat() {
