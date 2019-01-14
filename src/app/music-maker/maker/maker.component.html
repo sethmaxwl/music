@@ -55,7 +55,7 @@
         </div>
         <div class="row options justify-content-center">
           <mat-form-field class="metronome-settings">
-            <input matInput type="number" [(ngModel)]="bpm" (change)="updateBPM()" placeholder="BPM">
+            <input matInput type="number" min="1" max="500" [(ngModel)]="bpm" (change)="updateBPM()" placeholder="BPM">
           </mat-form-field>
         </div>
         <div class="row options justify-content-center">
