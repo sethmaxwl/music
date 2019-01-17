@@ -1,14 +1,13 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
-const metSound = new Tone.Player("../../assets/Woodblock.wav");
+const metSound = new Tone.Player('../../assets/Woodblock.wav');
 
 @Component({
   selector: 'app-maker',
   templateUrl: './maker.component.html',
   styleUrls: ['./maker.component.css']
 })
-
-export class MakerComponent {
+export class MakerComponent implements OnInit {
   noteLength = 1;
   maxOctave = 8;
   minOctave = 2;
