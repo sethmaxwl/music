@@ -6,12 +6,8 @@ import { SidebarAccessService } from './../sidebar-access.service';
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css'],
 })
-export class LandingComponent implements OnInit {
+export class LandingComponent {
 
   constructor(private sidebarService: SidebarAccessService) { }
-
-  ngOnInit() {
-    Tone.Transport.stop();
-  }
 
 }

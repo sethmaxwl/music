@@ -1,14 +1,13 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
-const metSound = new Tone.Player("../../assets/Woodblock.wav");
+const metSound = new Tone.Player('../../assets/Woodblock.wav');
 
 @Component({
   selector: 'app-maker',
   templateUrl: './maker.component.html',
   styleUrls: ['./maker.component.css']
 })
-
-export class MakerComponent {
+export class MakerComponent implements OnInit {
   noteLength = 1;
   maxOctave = 8;
   minOctave = 2;
@@ -129,12 +128,12 @@ export class MakerComponent {
   }
 
   updateBPM() {
-    if (this.bpm > 0) {
-      Tone.Transport.bpm.value = this.bpm;
-    } else {
-      Tone.Transport.bpm.value = 1;
-      document.getElementById("mat-input-1").value = 1;
+    if (this.bpm <= 0) {
+      this.bpm = 1;
+    } else if (this.bpm > 500) {
+      this.bpm = 500;
     }
+    Tone.Transport.bpm.value = this.bpm;
   }
 
   disableMetronome() {
