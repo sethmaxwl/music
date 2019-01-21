@@ -1,5 +1,9 @@
 .logo-sidebar {
   padding-top: 5%;
+  background-color: rgb(0, 99, 99) !important; 
+}
+.logo-sidebar:hover{
+  background-color: rgb(0, 99, 99) !important;
 }
 
 .logo {
@@ -22,4 +26,7 @@
 #logo{
   margin-top: 10%;
   margin-bottom: 10%;
+}
+#logo:hover{
+  background-color: rgb(0, 99, 99) !important;
 }
