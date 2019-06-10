@@ -5,7 +5,7 @@ const metSound = new Tone.Player('../../assets/Woodblock.wav');
 @Component({
   selector: 'app-maker',
   templateUrl: './maker.component.html',
-  styleUrls: ['./maker.component.css']
+  styleUrls: ['./maker.component.scss']
 })
 export class MakerComponent implements OnInit {
   noteLength = 1;

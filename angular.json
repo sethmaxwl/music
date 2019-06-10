@@ -127,5 +127,10 @@
       }
     }
   },
-  "defaultProject": "music"
+  "defaultProject": "music",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sidebar-toggle-button',
   templateUrl: './sidebar-toggle-button.component.html',
-  styleUrls: ['./sidebar-toggle-button.component.css']
+  styleUrls: ['./sidebar-toggle-button.component.scss']
 })
 export class SidebarToggleButtonComponent implements OnInit {
 

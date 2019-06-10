@@ -11,7 +11,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { LandingComponent } from './landing/landing.component';
 import { MatButtonModule } from '@angular/material';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { LoginModule } from './login.module';
 import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
